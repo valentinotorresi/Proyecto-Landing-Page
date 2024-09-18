@@ -80,7 +80,6 @@
             border-radius: 10px;
             background-color: #04146c;
             border: 0;
-            cursor: pointer;
         }
         .btn-contact a {
             color: #FFFFFF;
@@ -184,7 +183,6 @@
             font-weight: 300;
             text-align: center;
         }
-
         @media (max-width: 768px) {
             .nav-bar {
                 flex-direction: column;
@@ -200,6 +198,7 @@
             }
             .about-title {
                 font-size: 2rem;
+                margin: 0 auto 10px;
             }
             .testimonios-title {
                 font-size: 2rem;
